@@ -88,6 +88,9 @@ a {
   align-items: center;
   justify-content: center;
 }
+.intro-content {
+  padding: 0 25px;
+}
 .intro-content h2 {
   font-size: 45px;
   margin-bottom: 20px;
@@ -319,4 +322,36 @@ a {
   text-align: center;
   padding: 30px o;
   font-size: 14px;
+}
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar .container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .social-media-icons {
+    margin-bottom: 10px;
+  }
+
+  /* About Me */
+  .about-image {
+    display: none;
+  }
+
+  /* Footer */
+  .container {
+    flex: nowrap;
+  }
+  .footer-grid {
+    display: block;
+  }
+  .footer-grid h5 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
 }
