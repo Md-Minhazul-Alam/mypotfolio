@@ -66,10 +66,18 @@ a {
   color: #212f3c;
 }
 
-/* Main Section */
-.content {
-  padding: 60px 0;
+/* Hero Image Section */
+.hero{
+  background-image: url("/image/hero-image.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 /* About Section */
 .about-section{
