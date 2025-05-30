@@ -89,6 +89,62 @@ a {
   font-size: 18px;
   margin-bottom: 15px;
 }
+.about-text p{
+  text-align: justify;
+}
+
+/* Skill Section */
+.skill-section{
+background-color: #f6f6f6;
+padding: 60px 0;
+}
+.skill-heading{
+  font-size: 25px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.skill-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 30px; 
+}
+.skill img{
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.skill{
+  text-align: center;
+}
+.skill h5{
+  font-size: 18px;
+}
+
+/* Hobby Section */
+.hobby-section{
+  padding: 60px 0;
+  }
+  .hobby-heading{
+    font-size: 25px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  .hobby-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    gap: 30px; 
+  }
+  .hobby img{
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .hobby{
+    text-align: center;
+  }
+  .hobby h5{
+    font-size: 18px;
+  }
 
 /* Gallery Section */
 .gallery-section{
