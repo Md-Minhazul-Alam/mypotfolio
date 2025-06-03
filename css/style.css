@@ -25,8 +25,8 @@ a {
 .navbar {
   background-color: #fff;
   border-bottom: 2px solid #f6f6f6;
-  padding: 0 20px;
-  box-shadow: rgba (33, 35, 38, 0.1) 0px 10px 10px -10px;
+  padding: 10 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) ;
 }
 .navbar .container {
   display: flex;
