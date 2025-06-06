@@ -7,7 +7,7 @@ This is a simple four-page personal portfolio website built to showcase my work,
 - Gallery – A collection of my travel photos.
 - Contact – A form or section to connect with me along with my contact details.
 
-# View the website: https://md-minhazul-alam.github.io/index.html
+# View the website: https://md-minhazul-alam.github.io/mypotfolio/
 
 # Project Root:
 
