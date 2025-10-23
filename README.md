@@ -132,3 +132,97 @@ The layout was designed directly in the browser for responsive results.
 | As a visitor | I want a custom 404 page | So I get a clear message if I visit a broken or missing link |
 
 ---
+
+## Features
+
+| Feature | Description | Screenshot |
+| --- | --- | --- |
+| **Header** | Left: Name (Jackie), Center: Menu, Right: Social icons | ![screenshot](/assets/testing/features/header.png) |
+| **Hero Section** | "Welcome to my Portfolio – Traveler and Web Developer" with About Me button | ![screenshot](/assets/testing/features/hero.png) |
+| **About Me** | Detailed bio, skills, and hobbies | ![screenshot](/assets/testing/features/about.png) |
+| **Gallery** | Photo grid showcasing travel experiences | ![screenshot](/assets/testing/features/gallery.png) |
+| **Contact Page** | Contact form, info, and embedded Google Map | ![screenshot](/assets/testing/features/contact.png) |
+| **404 Page** | Custom error page with friendly message and link back to Home | ![screenshot](/assets/testing/features/404.png) |
+| **Footer** | Quick links, social media, and copyright | ![screenshot](/assets/testing/features/footer.png) |
+
+---
+
+### Future Features
+
+- Dark mode toggle  
+- Interactive gallery  
+- Resume download button  
+- Multi-language support  
+
+---
+
+## Tools & Technologies
+
+| Tool / Tech | Use |
+| --- | --- |
+| HTML | Structure and content |
+| CSS | Design and layout |
+| VS Code | Local development |
+| Git | Version control |
+| GitHub | Code hosting |
+| GitHub Pages | Live deployment |
+| Font Awesome | Icons |
+| ChatGPT | Help with documentation and code logic |
+| W3Schools | HTML/CSS references |
+
+## Agile Development Process
+
+### GitHub Projects
+Used GitHub Projects (Kanban board) to plan tasks like header layout, hero section, responsiveness, and testing.
+
+### GitHub Issues
+Tracked small issues (e.g., footer alignment, mobile layout).  
+All major issues were resolved before deployment.
+
+### MoSCoW Prioritization
+
+- **Must Have**: Working navigation, hero, contact form, and 404 page  
+- **Should Have**: Responsive design for all screens  
+- **Could Have**: Hover animations and dark mode  
+
+---
+
+## Testing
+
+> For full testing details, see [TESTING.md](TESTING.md)
+
+### GitHub Pages Deployment
+
+1. Go to repository **Settings → Pages**  
+2. Under “Build and Deployment,” select the **main** branch  
+3. Click **Save**  
+4. Wait for deployment (1–5 minutes)
+
+**Live Site:** [https://md-minhazul-alam.github.io/mypotfolio/](https://md-minhazul-alam.github.io/mypotfolio/)
+
+---
+
+## Credits
+
+### Content
+
+| Source | Notes |
+| --- | --- |
+| ChatGPT | Helped structure README and guide writing |
+| W3Schools | HTML/CSS references |
+
+### Media
+
+| Source | Notes |
+| --- | --- |
+| Flaticon | For 404 Page |
+| Self Collection | Hero and gallery photos |
+| favicon.io | Chat Gpt Generated |
+
+---
+
+## Acknowledgements
+
+- Thanks to Code Institute and online resources for foundational learning.  
+- Thanks to friends and peers who reviewed and tested the site.  
+- Special appreciation to the web developer community for continuous support.
