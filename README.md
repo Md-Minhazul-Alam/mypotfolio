@@ -61,6 +61,7 @@ Build an online presence, gain experience, and practice professional web structu
 2. About Me → learns about background, skills, hobbies  
 3. Gallery → views travel photos  
 4. Contact → fills out form or checks map  
+5. 404 → For error url
 
 ---
 
