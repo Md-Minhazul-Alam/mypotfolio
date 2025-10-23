@@ -106,3 +106,29 @@ Build an online presence, gain experience, and practice professional web structu
 
 ---
 
+## Wireframes
+
+No wireframes were used.  
+The layout was designed directly in the browser for responsive results.
+
+| Page | Desktop | Mobile | Tablet |
+| --- | --- | --- | --- |
+| Home | ![screenshot](/assets/testing/responsive/home-desktop.png) | ![screenshot](/assets/testing/responsive/home-mobile.png) | ![screenshot](/assets/testing/responsive/home-tablet.png) |
+| About | ![screenshot](/assets/testing/responsive/about-desktop.png) | ![screenshot](/assets/testing/responsive/about-mobile.png) | ![screenshot](/assets/testing/responsive/about-tablet.png) |
+| Gallery | ![screenshot](/assets/testing/responsive/gallery-desktop.png) | ![screenshot](/assets/testing/responsive/gallery-mobile.png) | ![screenshot](/assets/testing/responsive/gallery-tablet.png) |
+| Contact | ![screenshot](/assets/testing/responsive/contact-desktop.png) | ![screenshot](/assets/testing/responsive/contact-mobile.png) | ![screenshot](/assets/testing/responsive/contact-tablet.png) |
+| 404 Page | ![screenshot](/assets/testing/responsive/404-desktop.png) | ![screenshot](/assets/testing/responsive/404-mobile.png) | ![screenshot](/assets/testing/responsive/404-tablet.png) |
+
+---
+
+## User Stories
+
+| Target | Expectation | Outcome |
+| --- | --- | --- |
+| As a visitor | I want to learn who Jackie is | So I can understand their work and interests |
+| As a visitor | I want to view travel photos | So I can connect with their passion visually |
+| As a visitor | I want to contact Jackie easily | So I can reach out for collaboration |
+| As a visitor | I want the site to work on any device | So I can browse from anywhere |
+| As a visitor | I want a custom 404 page | So I get a clear message if I visit a broken or missing link |
+
+---
