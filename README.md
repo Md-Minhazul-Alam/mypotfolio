@@ -1,5 +1,14 @@
-# Md-Minhazul-Alam.github.io
-This is a simple four-page personal portfolio website built to showcase my work, skills, and ways to get in touch.
+# [My Portfolio](https://md-minhazul-alam.github.io/mypotfolio/)
+
+Developer: Md Minhazul Alam ([Md-Minhazul-Alam](https://github.com/Md-Minhazul-Alam))
+
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Md-Minhazul-Alam/mypotfolio)](https://github.com/Md-Minhazul-Alam/mypotfolio/commits/master)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Md-Minhazul-Alam/mypotfolio)](https://github.com/Md-Minhazul-Alam/mypotfolio/commits/master)
+[![GitHub repo size](https://img.shields.io/github/repo-size/Md-Minhazul-Alam/mypotfolio)](https://github.com/Md-Minhazul-Alam/mypotfolio)
+
+
+
+
 
 # Pages Included:
 - Home – Introduction and landing section.
