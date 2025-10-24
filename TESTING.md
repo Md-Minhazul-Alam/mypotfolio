@@ -42,3 +42,19 @@ Tested on desktop, tablet, and mobile devices.
 | Contact | ![screenshot](/assets/testing/responsive/contact-desktop.png) | ![screenshot](/assets/testing/responsive/contact-mobile.png) | ![screenshot](/assets/testing/responsive/contact-tablet.png) |
 | 404 Page | ![screenshot](/assets/testing/responsive/404-desktop.png) | ![screenshot](/assets/testing/responsive/404-mobile.png) | ![screenshot](/assets/testing/responsive/404-tablet.png) |
 
+
+
+## Browser Compatibility
+
+The site was tested across multiple browsers for visual and functional consistency.
+
+| Page | Chrome | Firefox | Edge | Notes |
+| --- | --- | --- | --- | --- |
+| Home | ![screenshot](/assets/testing/browser/home-chrome.png) | ![screenshot](/assets/testing/browser/home-firefox.png) | ![screenshot](/assets/testing/browser/home-edge.png) | Works consistently |
+| About | ![screenshot](/assets/testing/browser/about-chrome.png) | ![screenshot](/assets/testing/browser/about-firefox.png) | ![screenshot](/assets/testing/browser/about-edge.png) | Works as expected |
+| Gallery | ![screenshot](/assets/testing/browser/gallery-chrome.png) | ![screenshot](/assets/testing/browser/gallery-firefox.png) | ![screenshot](/assets/testing/browser/gallery-edge.png) | No visual issues |
+| Contact | ![screenshot](/assets/testing/browser/contact-chrome.png) | ![screenshot](/assets/testing/browser/contact-firefox.png) | ![screenshot](/assets/testing/browser/contact-edge.png) | Works as expected |
+| 404 Page | ![screenshot](/assets/testing/browser/404-chrome.png) | ![screenshot](/assets/testing/browser/404-firefox.png) | ![screenshot](/assets/testing/browser/404-edge.png) | Consistent across browsers |
+
+---
+
