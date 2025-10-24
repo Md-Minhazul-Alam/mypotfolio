@@ -21,6 +21,13 @@ All HTML and CSS files were validated using the official [W3C HTML Validator](ht
 
 ---
 
+### CSS Validation
+
+| File | URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| style.css | [CSS Validator](https://jigsaw.w3.org/css-validator/) | ![screenshot](/assets/testing/validation/css/style.png) | Passed – no major issues detected |
+
+---
 
 
 ## Responsiveness
