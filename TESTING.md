@@ -58,3 +58,79 @@ The site was tested across multiple browsers for visual and functional consisten
 
 ---
 
+
+## Lighthouse Audit
+
+The site was audited using **Google Chrome Lighthouse** for accessibility, SEO, and performance.
+
+| Page | Mobile | Desktop |
+| --- | --- | --- |
+| Home | ![screenshot](/assets/testing/lighthouse/home-mobile.png) | ![screenshot](/assets/testing/lighthouse/home-desktop.png) |
+| About | ![screenshot](/assets/testing/lighthouse/about-mobile.png) | ![screenshot](/assets/testing/lighthouse/about-desktop.png) |
+| Gallery | ![screenshot](/assets/testing/lighthouse/gallery-mobile.png) | ![screenshot](/assets/testing/lighthouse/gallery-desktop.png) |
+| Contact | ![screenshot](/assets/testing/lighthouse/contact-mobile.png) | ![screenshot](/assets/testing/lighthouse/contact-desktop.png) |
+| 404 Page | ![screenshot](/assets/testing/lighthouse/404-mobile.png) | ![screenshot](/assets/testing/lighthouse/404-desktop.png) |
+
+---
+
+
+## Defensive Programming
+
+Defensive programming was manually tested through various user interaction scenarios.
+
+| Feature | Expectation | Test | Result | Screenshot |
+| --- | --- | --- | --- | --- |
+| Navigation | Menu links should work correctly on all pages | Clicked each navigation link | All links worked properly | ![screenshot](/assets/testing/features/header.png) |
+| Buttons | Hero “About Me” button should redirect properly | Clicked “About Me” button on hero section | Redirected successfully | ![screenshot](/assets/testing/features/hero.png) |
+| Contact Form | Should not submit empty or invalid data | Tested with empty and incorrect inputs | Proper validation and error prompts | ![screenshot](/assets/testing/features/contact.png) |
+| Responsive Layout | Content should not overlap on resize | Tested across device sizes | Layout remained consistent | ![screenshot](/assets/testing/responsive/home-mobile.png) |
+| 404 Page | Should display friendly error message | Entered wrong URL | Custom 404 page appeared with Home link | ![screenshot](/assets/testing/features/404.png) |
+
+---
+
+## User Story Testing
+
+| Target | Expectation | Outcome | Screenshot |
+| --- | --- | --- | --- |
+| As a visitor | I want to learn who Jackie is | “About Me” section clearly describes identity and interests | ![screenshot](/assets/testing/features/about.png) |
+| As a visitor | I want to view travel photos | Gallery displays organized and high-quality travel photos | ![screenshot](/assets/testing/features/gallery.png) |
+| As a visitor | I want to contact Jackie easily | Contact form and info displayed cleanly | ![screenshot](/assets/testing/features/contact.png) |
+| As a visitor | I want a clear 404 page if I reach a broken link | 404 page clearly guides back to Home | ![screenshot](/assets/testing/features/404.png) |
+| As a visitor | I want the site to be mobile friendly | Layout adapts perfectly on all screen sizes | ![screenshot](/assets/testing/responsive/home-mobile.png) |
+
+---
+
+## Bugs
+
+- **Navigation overlap on small screens**  
+  **How found:** During responsive testing  
+  **Fix:** Adjusted padding and added media queries  
+  **Status:** Fixed  
+
+- **Button alignment issue in hero section**  
+  **How found:** Visual testing on mobile view  
+  **Fix:** Adjusted flex alignment and spacing  
+  **Status:** Fixed  
+
+- **Contact form validation not blocking empty fields**  
+  **How found:** Tested form submission without input  
+  **Fix:** Added `required` attributes to input fields  
+  **Status:** Fixed  
+
+- **Broken link in footer**  
+  **How found:** Manual link testing  
+  **Fix:** Updated href to correct page path  
+  **Status:** Fixed  
+
+---
+
+### Known Issues
+
+- **Known Issue:** None  
+- **Description:** All known bugs have been fixed.  
+- **Possible Solution:** N/A  
+- **Status:** None  
+
+> [!IMPORTANT]
+> The site functions as intended across all tested environments. While extensive testing was conducted, minor issues may still appear in rare cases.
+
