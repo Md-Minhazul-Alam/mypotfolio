@@ -3,6 +3,24 @@
 [Return to README.md](README.md)
 
 
+---
+
+## Code Validation
+
+All HTML and CSS files were validated using the official [W3C HTML Validator](https://validator.w3.org/) and [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+### HTML Validation
+
+| Page | File | URL | Screenshot | Notes |
+| --- | --- | --- | --- | --- |
+| Home | [index.html](https://md-minhazul-alam.github.io/mypotfolio/index.html) | [W3C Validator](https://validator.w3.org/) | ![screenshot](/assets/testing/validation/html/home.png) | Passed – no major errors |
+| About | [about.html](https://md-minhazul-alam.github.io/mypotfolio/about.html) | [W3C Validator](https://validator.w3.org/) | ![screenshot](/assets/testing/validation/html/about.png) | Passed – clean markup |
+| Gallery | [gallery.html](https://md-minhazul-alam.github.io/mypotfolio/gallery.html) | [W3C Validator](https://validator.w3.org/) | ![screenshot](/assets/testing/validation/html/gallery.png) | Passed – valid structure |
+| Contact | [contact.html](https://md-minhazul-alam.github.io/mypotfolio/contact.html) | [W3C Validator](https://validator.w3.org/) | ![screenshot](/assets/testing/validation/html/contact.png) | Passed – form validated correctly |
+| 404 Page | [404.html](https://md-minhazul-alam.github.io/mypotfolio/404.html) | [W3C Validator](https://validator.w3.org/) | ![screenshot](/assets/testing/validation/html/404.png) | Passed – valid syntax |
+
+---
+
 
 
 ## Responsiveness
