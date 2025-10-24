@@ -230,6 +230,7 @@ a {
   text-align: center;
   margin-bottom: 30px;
   font-size: 26px;
+  font-weight: 600;
 }
 
 .gallery-grid {
@@ -242,17 +243,34 @@ a {
   border: 1px solid #d5dbdb;
   padding: 12px;
   border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+  transition: 0.2s ease-in-out;
 }
 
 .item:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  transition: 0.1s all ease-in-out;
+  transform: translateY(-3px);
 }
 
 .item img {
   width: 100%;
-  border-radius: 0px;
+  height: auto;
+  border-radius: 5px;
   margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.item p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
 }
 
 /* Contact Section */
@@ -441,6 +459,13 @@ a {
     display: none;
   }
 
+   .gallery-section h3 {
+    font-size: 22px;
+  }
+  .item img {
+    height: 220px;
+  }
+
   /* Footer */
   .container {
     display: flex;
@@ -454,5 +479,36 @@ a {
   .footer-grid h5 {
     margin-top: 20px;
     font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .gallery-section {
+    padding: 50px 0;
+  }
+  .gallery-grid {
+    gap: 20px;
+  }
+  .gallery-section h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery-section {
+    padding: 40px 15px;
+  }
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .item img {
+    height: 200px;
+  }
+  .item h4 {
+    font-size: 16px;
+  }
+  .item p {
+    font-size: 13px;
   }
 }
