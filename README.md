@@ -175,7 +175,7 @@ The layout was designed directly in the browser for responsive results.
 ### GitHub Projects
 Used GitHub Projects (Kanban board) to plan tasks like header layout, hero section, responsiveness, and testing.
 
-![GitHub Projects](assets/testing/project.PNG)
+![GitHub Projects](assets/testing/project.png)
 
 ### GitHub Issues
 Tracked small issues (e.g., footer alignment, mobile layout).  
